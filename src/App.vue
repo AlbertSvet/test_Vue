@@ -12,7 +12,7 @@
   <div v-else-if="users.length == 1">
      <p>Добавлена одна задача</p>
   </div>
-  <div v-else="users.length == 1">
+  <div v-else="users.length > 1">
      <p>Добавлено больше одной задачи</p>
   </div>
   <div class="container">  
